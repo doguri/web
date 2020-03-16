@@ -38,8 +38,8 @@ $mesg = "&nbsp;";
 
 #...process get data...........................................................
 
-foreach ($_GET as $key => $value) {
-  eval("\$".$key."=\$_GET['".$key."'];");
+foreach ($_POST as $key => $value) {
+  eval("\$".$key."=\$_POST['".$key."'];");
 }
 if ($ip != "" and $num == "") {
   $num = convertip($ip);
@@ -52,7 +52,7 @@ if ($ip == "" and $num != "") {
 
 #...html.......................................................................
 
-echo "<form action=".$_SERVER['PHP_SELF']." method=get>";
+echo "<form action=".$_SERVER['PHP_SELF']." method=post>";
 echo "<table><tr><td colspan=2>";
 echo "<a href=ipconvert.php><h2>IP Converter</h2></a>";
 echo "</td></tr><tr><td>";
