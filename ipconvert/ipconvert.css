@@ -1,0 +1,58 @@
+body {
+  font-family:helvetica;
+}
+
+a {
+  color: darkblue;
+  font-family: helvetica;
+  text-decoration: none;
+}
+
+button {
+  padding: 4px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0px;
+}
+
+#status {
+  color: #888888;
+  border: 1px solid #dddddd;
+  font-size: 10px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+table {
+  background-color: beige;
+  border: 1px solid silver;
+  border-radius: 8px;
+  font-size: 14px;
+  margin: 16px 0px 16px 8px;
+  padding: 8px;
+  width: 240px;
+}
+
+table tr:nth-child(1) td {
+  border-bottom: 1px solid silver;
+  text-align: left;
+}
+
+table tr:nth-child(2) td {
+  padding-top: 8px;
+}
+
+table tr:nth-child(2) td:nth-child(1) {
+  text-align: right;
+}
+
+table tr:nth-child(3) td:nth-child(1) {
+  text-align: right;
+}
+
+table tr:nth-child(4) td {
+  padding-top: 8px;
+  text-align: center;
+}
