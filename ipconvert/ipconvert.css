@@ -25,6 +25,10 @@ h2 {
   text-align: center;
 }
 
+input[type=text] {
+  width: 100%;
+}
+
 table {
   background-color: beige;
   border: 1px solid silver;
